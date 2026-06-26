@@ -161,17 +161,26 @@
             </div>
 
             <p class="abstract-text animate delay-2">Large language model-based AI agents are now able to autonomously
-                execute
-                substantial portions of a high energy physics (HEP) analysis pipeline with minimal expert-curated input.
-                Using the <strong>Just Furnish Context (JFC)</strong> framework --- which pairs autonomous analysis
-                agents with literature-based knowledge retrieval and multi-agent review --- we find that Claude Code
-                succeeds in automating all stages of a typical analysis: event selection, background estimation,
-                uncertainty quantification, statistical inference, and paper drafting. We conduct analyses on open data
-                from the ALEPH, DELPHI, and CMS experiments and present six autonomous measurements spanning
-                electroweak, QCD, and Higgs-boson physics. Two are recast in condensed short-paper form --- a CMS Run 1
-                $H \to \tau\tau$ measurement and the first Lund jet plane measurement on LEP data, to our knowledge the
-                first such result produced autonomously by an AI agent --- suggesting a coming shift in how data
-                analysis and scientific software are developed in the field.</p>
+                execute substantial portions of a high energy physics (HEP) analysis pipeline with minimal
+                expert-curated input. Given access to a HEP dataset, an execution framework, and a corpus of prior
+                experimental literature, we find that Claude Code succeeds in automating all stages of a typical
+                analysis: event selection, background estimation, uncertainty quantification, statistical inference, and
+                paper drafting. We argue that the experimental HEP community is underestimating the current capabilities
+                of these systems, and that most proposed agentic workflows are too narrowly scoped or scaffolded to
+                specific analysis structures.</p>
+            <p class="abstract-text animate delay-2">We present a proof-of-concept framework, <strong>Just Furnish
+                    Context</strong> (JFC), that integrates autonomous analysis agents with literature-based knowledge
+                retrieval and multi-agent review, and show that this is sufficient to plan, execute, and document a
+                credible high energy physics analysis. We demonstrate this by conducting analyses on open data from
+                ALEPH, DELPHI, and CMS to perform electroweak, QCD, and Higgs boson measurements. We present two of
+                those results in a condensed short paper form — a CMS Run 1 Open Data $H \to \tau^+\tau^-$ to
+                demonstrate performance on a well-established result, and the first Lund plane measurement on LEP data
+                — a genuinely novel result and, to our knowledge, the first produced autonomously by an AI agent.</p>
+            <p class="abstract-text animate delay-2">Rather than replacing physicists, these tools promise to offload the
+                repetitive technical burden of analysis code development, freeing researchers to focus on physics
+                insight, truly novel method development, and rigorous validation. Given these developments, we advocate
+                for new strategies for how the community trains students, organizes analysis efforts, and allocates
+                human expertise.</p>
             <div class="vision-figure animate delay-2">
                 <img src="images/vision_workflow.png?v=1" alt="AI-agent workflow vs Typical HEP analysis workflow">
                 <p class="vision-caption">
@@ -224,8 +233,8 @@
                                 alt="Z-Boson Lineshape PDF Thumbnail"></a>
                     </div>
                     <h3>Z-Boson Lineshape</h3>
-                    <p>Measure the properties of the Z boson --- its mass, total width, and hadronic peak cross
-                        section --- from a lineshape scan, together with the number of light neutrino species
+                    <p>Measure the properties of the Z boson — its mass, total width, and hadronic peak cross
+                        section — from a lineshape scan, together with the number of light neutrino species
                         extracted from the invisible width. Events are classified into hadronic and leptonic final
                         states, and luminosity-independent counting ratios constrain the partial widths.</p>
                     <div class="card-actions">
@@ -316,9 +325,9 @@
                                 alt="Event Shapes and alpha_s Thumbnail"></a>
                     </div>
                     <h3>Event Shapes &amp; $\alpha_s$</h3>
-                    <p>Determine the strong coupling $\alpha_s(M_Z)$ from six classic event-shape distributions ---
+                    <p>Determine the strong coupling $\alpha_s(M_Z)$ from six classic event-shape distributions —
                         thrust, heavy jet mass, the wide and total jet broadenings, the $C$-parameter, and the
-                        Durham $y_{23}$ resolution --- in hadronic Z decays. The distributions are unfolded to
+                        Durham $y_{23}$ resolution — in hadronic Z decays. The distributions are unfolded to
                         particle level and fit with NNLO+NLL QCD predictions, extracting $\alpha_s$ together with
                         the non-perturbative power corrections and comparing against the world average.</p>
                     <div class="card-actions">
