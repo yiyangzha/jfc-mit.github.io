@@ -572,6 +572,20 @@ header p {
     margin: 1.25rem 0 1rem !important;
 }
 
+/* Desktop: six authors per row — let long names wrap instead of overflowing
+   their 1/6-width cards, and trim name/title size slightly to fit. */
+@media (min-width: 993px) {
+    .author-name {
+        white-space: normal;
+        font-size: 0.8rem;
+        hyphens: auto;
+    }
+
+    .author-title {
+        font-size: 0.64rem;
+    }
+}
+
 /* RESPONSIVENESS */
 @media (max-width: 992px) {
     .experiments-layout {
