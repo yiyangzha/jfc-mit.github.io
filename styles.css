@@ -538,6 +538,40 @@ header p {
     font-size: 0.85rem;
 }
 
+.btn-disabled {
+    background: transparent;
+    color: var(--text-muted);
+    border: 1px dashed var(--border-color);
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
+.btn-disabled:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+/* Note under the DELPHI header marking it as exploratory */
+.exploratory-note {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin: -0.5rem 0 1.5rem;
+    padding: 0.75rem 1rem;
+    border-left: 3px solid var(--border-color);
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 0 6px 6px 0;
+}
+
+/* Cross-model comparison blurb inside the CMS card */
+.cross-model-note {
+    font-size: 0.85rem !important;
+    color: var(--text-muted);
+    line-height: 1.5;
+    flex-grow: 0 !important;
+    margin: 1.25rem 0 1rem !important;
+}
+
 /* RESPONSIVENESS */
 @media (max-width: 992px) {
     .experiments-layout {
